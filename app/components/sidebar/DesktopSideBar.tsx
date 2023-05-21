@@ -67,7 +67,7 @@ const DesktopSideBar: React.FC<DesktopSideBarProps> = ({ currentUser }) => {
           mt-4
           flex
           flex-col
-          justify-center
+          justify-between
           items-center
       "
       >

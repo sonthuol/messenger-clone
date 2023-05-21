@@ -15,7 +15,6 @@ const MobileFooter = () => {
     justify-between
     w-full
     bottom-0
-    z-40
     flex
     items-center
     bg-white
