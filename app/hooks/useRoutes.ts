@@ -25,7 +25,7 @@ const useRoutes = () => {
       {
         label: "Logout",
         href: "#",
-        onClick: () => signOut(),
+        onClick: async () => await signOut({ callbackUrl: "/api/auth/logout" }),
         icon: HiArrowLeftOnRectangle,
       },
     ],
